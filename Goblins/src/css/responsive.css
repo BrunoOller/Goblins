@@ -1,0 +1,112 @@
+/* Responsive CSS */
+
+@media (max-width: 1535px) {
+    header {
+        padding:                15px 3%;
+        transition:             .2s;
+    }
+
+    .icones {
+        padding:                0 3%;
+        transition:             .2s;
+    }
+
+    .rolagem {
+        right:                  3%;
+        transition:             .2s;
+    }
+}
+
+@media (max-width: 1460px) {
+    section {
+        padding:                0 12%;
+        transition:             .2s;
+    }
+}
+
+@media (max-width: 1340px) {
+    .goblin-img img {
+        width:                  100%;
+        height:                 auto;
+    }
+
+    .goblin-texto h1 {
+        font-size:              75px;
+        margin:                 0 0 30px;
+    }
+
+    .goblin-texto h5 {
+        margin-bottom:          25px;
+    }
+}
+
+@media (max-width: 1195px) {
+    section {
+        padding:                0 3%;
+        transition:             .2s;
+    }
+
+    .goblin-texto {
+        padding-top:            115px;
+    }
+
+    .goblin-img {
+        text-align:             center;
+    }
+
+    .goblin-img img {
+        width:                  560px;
+        height:                 auto;
+    }
+
+    .goblin {
+        height:                 100%;
+        gap:                    1rem;
+        grid-template-columns:  1fr;
+    }
+
+    .icones {
+        display:                none;
+    }
+
+    .rolagem {
+        display:                none;
+    }
+}
+
+@media (max-width: 990px) {
+    #icone-menu {
+        display:                block;
+    }
+
+    .menu {
+        position:               absolute;
+        top:                    100%;
+        right:                  0;
+        width:                  fit-content;
+        height:                 fit-content;
+        background:             #4d9559;
+        display:                none;
+        align-items:            center;
+        flex-direction:         column;
+        padding:                30px 50px;
+        transition:             all .55s ease;
+    }
+
+    .abrir {
+        display:                flex;
+    }
+
+    .menu a {
+        display:                block;
+        margin-left:            0;
+        margin:                 7px 0;
+    }
+}
+
+@media (max-width: 680px) {
+    .goblin-img {
+        width: 100%;
+        height: auto;
+    }
+}
